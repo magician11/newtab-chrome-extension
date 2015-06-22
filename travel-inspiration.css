@@ -3,7 +3,7 @@ body {
     padding: 3.8em;
 }
 
-h1 {
+h1, h3 {
     color: white;
     font-family: 'Courgette';
 }
@@ -24,4 +24,14 @@ a:hover {
     padding: 1.875rem;
     border: none;
     box-shadow: none;   
+}
+
+.quote {
+    margin-top: 470px;
+}
+
+.quote h3 {
+  background-color: rgba(0,0,0,0.8);
+  padding: 0.8em;
+  border-radius: 0.8em;
 }
