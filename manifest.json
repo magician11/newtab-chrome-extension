@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+
+    "name": "Travel Inspiration",
+    "description": "This extension shows inspiring travel images from Dustin Main whenever a new tab is opened.",
+    "version": "1.1",
+
+    "chrome_url_overrides" : {
+        "newtab": "travel-inspiration.html"
+    }
+}
