@@ -2,11 +2,35 @@
 <html>
     <head>
         <title>Travel Inspiration</title>
+        <link rel="stylesheet" type="text/css" href="libs/css/foundation.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Courgette ' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="travel-inspiration.css">
 
     </head>
     <body>
-        <h1>Hello Andrew!</h1>
+
+        <section class="row">
+            <div class="large-12 columns text-right">
+                <a href="#" data-reveal-id="dustinStory">Where is this?</a>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="large-12 columns">
+                <h1>Hello Andrew!</h1>
+            </div>
+        </section>
+
+        <div id="dustinStory" class="reveal-modal medium" data-reveal role="dialog">
+            <div class="text-center">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/MPBfQZA0C8Y?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <script src="libs/jquery-1.11.3.min.js"></script>
+        <script src="libs/js/foundation.min.js"></script>
+        <script src="travel-inspiration.js"></script>
     </body>
 </html>
 
