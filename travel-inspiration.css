@@ -3,6 +3,7 @@ body {
     padding: 0.8em 0;
 }
 
+/* to override the default Foundation row class to allow 100% width */
 .fullwidth {
     max-width: 100%;   
 }
@@ -26,7 +27,7 @@ h1, h4 {
 .button:hover {
     background-color: white;
     color: black;
-    border: none;
+    border: 1px solid white;
 }
 
 .reveal-modal {
