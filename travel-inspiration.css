@@ -2,6 +2,8 @@ body {
     background-image: url(images/fishing%20dude.jpg);
     background-size: cover;
     padding: 0.8em 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* to override the default Foundation row class to allow 100% width */
@@ -16,7 +18,9 @@ h1, h4 {
 }
 
 .greeting {
-    margin-top: 65%;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .button.tiny, .button.tiny:focus {
@@ -37,8 +41,4 @@ h1, h4 {
     padding: 1.875rem;
     border: none;
     box-shadow: none;   
-}
-
-.quote {
-    margin-top: 18em !important;
 }
